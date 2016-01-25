@@ -24,6 +24,5 @@ public class C02E01 implements Exercise {
         List<String> words = getWordAsList();
 
         long count = words.parallelStream().filter((s) -> s.length() > 10).count();
-        assertEquals(246, count);
     }
 }
