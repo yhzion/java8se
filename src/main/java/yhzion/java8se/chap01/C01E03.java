@@ -19,7 +19,7 @@ public class C01E03 implements Exercise {
     @Test
     @Override
     public void perform() {
-        Arrays.asList(list("./src/main/java/yhzion/java8se/chap01","java"))
+        Arrays.asList(list("./src/main/java/yhzion/java8se/chap01", "java"))
                 .forEach(System.out::println);
     }
 
