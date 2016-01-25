@@ -5,8 +5,6 @@ import yhzion.java8se.Exercise;
 
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-
 /**
  * 2장 연습문제
  * 문항 1.
