@@ -3,9 +3,7 @@ package yhzion.java8se.chap02;
 import org.junit.Test;
 import yhzion.java8se.Exercise;
 
-import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.counting;
 
