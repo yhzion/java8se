@@ -19,6 +19,12 @@ public class C02E05 implements Exercise {
     @Test
     @Override
     public void perform() {
-        Stream.generate(Math::random);
+        getStream(25214903917L, 11, (long) Math.pow(2, 48), System.currentTimeMillis())
+                .limit(10)
+                .forEach(System.out::println);
+    }
+
+    private static Stream<Long> getStream(long a, long c, long m, long seed) {
+        return Stream.iterate(seed, e -> (a * e + c) % m);
     }
 }

@@ -1,10 +1,10 @@
 package yhzion.java8se.chap02;
 
-import junit.framework.Assert;
 import org.junit.Test;
 import yhzion.java8se.Exercise;
 
 import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 /**
